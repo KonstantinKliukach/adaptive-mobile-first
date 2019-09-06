@@ -1,0 +1,6 @@
+@import './desctop.css';
+@import './tablet.css';
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
