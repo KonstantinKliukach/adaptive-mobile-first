@@ -17,25 +17,29 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  padding: 0px 20px;
+  padding: 0px 19px;
 }
 
 .header {
   background:linear-gradient(0deg,rgba(10,14,52,0.9),rgba(10,14,52,0.9)),url(/images/football_767.jpg);
   background-size: auto 100%;
+  background-repeat: no-repeat;
 }
 
 .footer {
   background:linear-gradient(0deg,rgba(10,14,52,0.9),rgba(10,14,52,0.9)),url(/images/game_767.jpg);
   background-size: auto 102%;
   background-position: 100%;
+  background-repeat: no-repeat;
 }
 
 .logo-text {
-  margin-top: 32px;
   fill: #ffffff;
   width: 130px;
+}
+
+.footer .logo-text {
+  margin-top: 75px;
 }
 
 .slogan {
@@ -50,11 +54,11 @@ body {
   color: #fff;
   text-transform: uppercase;
 }
-.slogan:first-of-type {
+.header.slogan:first-of-type {
   margin-top: 130px;
   margin-bottom: 0px;
 }
-.slogan:last-of-type {
+.header .slogan:last-of-type {
   margin-top: 20px;
   margin-bottom: 90px;
   padding-left: 44px;
@@ -116,5 +120,35 @@ body {
 .footer .logo {
   width: 71px;
   height: 71px;
+  padding: 11px;
+  margin-top: 100px;
   fill: white;
+  border-radius: 12px;
+  background: rgba(80,50,156,1);
+  background: -moz-linear-gradient(-45deg, rgba(80,50,156,1) 0%, rgba(94,61,179,1) 51%, rgba(120,81,219,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(80,50,156,1)), color-stop(51%, rgba(94,61,179,1)), color-stop(100%, rgba(120,81,219,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(80,50,156,1) 0%, rgba(94,61,179,1) 51%, rgba(120,81,219,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(80,50,156,1) 0%, rgba(94,61,179,1) 51%, rgba(120,81,219,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(80,50,156,1) 0%, rgba(94,61,179,1) 51%, rgba(120,81,219,1) 100%);
+  background: linear-gradient(135deg, rgba(80,50,156,1) 0%, rgba(94,61,179,1) 51%, rgba(120,81,219,1) 100%);
+}
+.footer .slogan {
+  margin-top: 55px;
+  font-size: 32px;
+  margin-bottom: 0px;
+}
+.sub-slogan {
+  margin-top: 6px;
+  font-family: 'OpenSans';
+  color: #9b8ec1;
+  font-weight: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.7px;
+}
+
+.footer .button-block {
+  margin-top: 60px;
+  width: 100%;
 }
