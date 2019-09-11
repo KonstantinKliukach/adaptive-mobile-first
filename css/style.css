@@ -21,13 +21,13 @@ body {
 }
 
 .header {
-  background:linear-gradient(0deg,rgba(10,14,52,0.9),rgba(10,14,52,0.9)),url(/images/football_767.jpg);
+  background:linear-gradient(0deg,rgba(10,14,52,0.9),rgba(10,14,52,0.9)),url(../images/football_767.jpg);
   background-size: auto 100%;
   background-repeat: no-repeat;
 }
 
 .footer {
-  background:linear-gradient(0deg,rgba(10,14,52,0.9),rgba(10,14,52,0.9)),url(/images/game_767.jpg);
+  background:linear-gradient(0deg,rgba(10,14,52,0.9),rgba(10,14,52,0.9)),url(../images/game_767.jpg);
   background-size: auto 102%;
   background-position: 100%;
   background-repeat: no-repeat;
@@ -102,24 +102,24 @@ body {
 
 .appstore-label::before {
   background-color: white;
-  -webkit-mask-image: url(/images/icons/apple_logo_black.svg);
-  mask-image: url(/images/icons/apple_logo_black.svg);
+  -webkit-mask-image: url(../images/icons/apple_logo_black.svg);
+  mask-image: url(../images/icons/apple_logo_black.svg);
 }
 .googleplay-label::before {
   background-color: #fff;
-  -webkit-mask-image: url(/images/icons/google-play.svg);
-  mask-image: url(/images/icons/google-play.svg);
+  -webkit-mask-image: url(../images/icons/google-play.svg);
+  mask-image: url(../images/icons/google-play.svg);
 }
 
 /* Section's styles*/
 .athlets {
-  background-image: url(/images/footballer_192.png);
+  background-image: url(../images/footballer_192.png);
   background-repeat: no-repeat;
   background-position: center;
   background-position-y: 100px; 
 }
 .players {
-  background-image: url(/images/basketballer_302.png);
+  background-image: url(../images/basketballer_302.png);
   background-repeat: no-repeat;
   background-position: center;
   background-position-y: 100px; 
@@ -311,7 +311,7 @@ body {
   z-index: -1;
   min-height: 350px;
   min-width: 100%;
-  background-image: url(/images/be-active.jpg);
+  background-image: url(../images/be-active.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -324,7 +324,7 @@ body {
   z-index: -1;
   min-height: 350px;
   min-width: 100%;
-  background-image: url(/images/find-contact.jpg);
+  background-image: url(../images/find-contact.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -337,7 +337,7 @@ body {
   z-index: -1;
   min-height: 350px;
   min-width: 100%;
-  background-image: url(/images/work-it.jpg);
+  background-image: url(../images/work-it.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
