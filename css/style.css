@@ -310,7 +310,7 @@ body {
   position: relative;
 }
 
-.advice-number {
+.number-container {
   display: block;
   position: absolute;
   bottom: -12px;
@@ -327,6 +327,25 @@ body {
   letter-spacing: 0.7px;
   color: #f5f6f7;
 }
+.advice-number {
+  display: block;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.advice-number::after {
+  display: block;
+  content: "";
+  background-color: #8f7bc8;
+  width: 18px;
+  height: 4px;
+  border-radius: 2px;
+  position:absolute;
+  bottom: 2px;
+  left: 25px;
+}
+
 /*
 .active-title::before {
   content: '01';
