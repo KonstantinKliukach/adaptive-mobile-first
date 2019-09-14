@@ -1,0 +1,52 @@
+@media (min-width : 768px) and (max-width : 1024px) {
+  .header {
+    background:linear-gradient(0deg,rgba(10,14,52,0.9),rgba(10,14,52,0.9)),url(../images/football_1280.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+  }
+  .logo-text {
+    width: 205px;
+  }
+  .header .logo-text {
+    margin-top: 40px;
+  }
+  .slogan {
+    font-size: 64px;
+    line-height: 100%;
+  }
+  .header .slogan:first-of-type {
+    margin-top: 270px;
+    padding-left: 80px;
+    margin-bottom: 0px;
+  }
+  .header .slogan:last-of-type {
+    margin-top: 20px;
+    padding-left: 190px;
+    margin-bottom: 260px;
+  }
+  .button-block {
+    display: flex;
+    padding: 0 35px;
+    justify-content: space-between;
+
+  }
+  .download-button {
+    width: 320px;
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 24px 0px;
+    font-weight: lighter;
+    box-shadow: 8px 14px 24px 0px rgba(10, 14, 52, 1);
+  }
+  .download-button p {
+    display:inline-block;
+    margin: 0 10px;
+    width: 140px;
+    text-align: left;
+  }
+  .download-button::before {
+    width: 40px;
+    height: 40px;
+  }
+  
+}
